@@ -202,7 +202,7 @@ h2{
     
 }
 
-footer{
+#contact{
     background-color: rgba(255, 103, 68, 0.91);
     padding: 6em 4em 5.6em;
 }
@@ -236,6 +236,33 @@ footer{
     margin-top: 48px;
 }
 
+footer{
+    background-color: #E3E3E3;
+
+    
+}
+
+footer .footer-detail{
+    padding: 5em 4em 2em;
+}
+
+ footer #logo{
+    background-color: rgba(255, 103, 68, 0.91);
+    border-radius: 50%;
+    display: inline;
+    color: #fff;
+    padding: .4em;
+    font-family: "Maven pro", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+   
+}
+
+footer #copyright{
+    margin-top: 30px;
+    color: #7d7d7d;
+}
 
 
 
