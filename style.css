@@ -1,6 +1,7 @@
 body{
-    margin: 0 auto;
-    font-family: "Lato", sans-serif;
+   width:auto;
+   margin: 0 auto;
+   
    
 }
 .wrapper{
@@ -33,6 +34,7 @@ height: 150px;
 .about{
    text-align: center;
   margin-top: 60px;
+  padding-bottom: 1em;
 }
 
 h2{
@@ -70,7 +72,8 @@ h2{
     background-color: rgba(255, 103, 68, 0.91);
     color: white;
     text-decoration: none;
-    transition: all ease;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out, color 0.2s 0.3s;
 
 }
 
@@ -86,3 +89,37 @@ h2{
     color: #8a8a8a;
     width: 30px;
 }
+
+.experience{
+    margin: 0 auto;
+    background-color: #4c6d86;
+    padding: 45px 25px;
+}
+
+.experience h2{
+    color: #fff;
+    margin-bottom: .7em;
+    font-weight: 900;
+    font-family: "Lato", sans-serif !important;
+    
+}
+
+.experience h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.experience-text i{
+    color: rgb(255, 138, 89);
+    font-size: 55px;
+    margin-top: 31px;
+    
+}
+
+.experience-text ul{
+   list-style: none;
+} 
+
+
+
+
