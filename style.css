@@ -94,31 +94,50 @@ h2{
     margin: 0 auto;
     background-color: #4c6d86;
     padding: 45px 25px;
+    text-align: center;
 }
 
 .experience h2{
     color: #fff;
     margin-bottom: .7em;
-    font-weight: 900;
-    font-family: "Lato", sans-serif !important;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
     
+}
+
+.experience p{
+    font-size: 24px;
+    color: white;
 }
 
 .experience h3 {
     font-size: 24px;
     color: white;
+    margin-top: 20px;
 }
 
-.experience-text i{
+.experience i {
     color: rgb(255, 138, 89);
     font-size: 55px;
-    margin-top: 31px;
+   margin-top: 20px;
     
 }
 
-.experience-text ul{
+
+.experience-text ul li{
    list-style: none;
+   text-align: center;
+   font-family: "Maven pro", sans-serif;
+  color: #bbd2ff;
+  padding: 2px 5px;
+  margin-left: 2px;
+  margin-right: 36px;
 } 
+
+.experience-align{
+   padding: 0 40px;
+}
 
 
 
