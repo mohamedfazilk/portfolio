@@ -1,13 +1,16 @@
 body{
-   width:auto;
-   margin: 0 auto;
-   
+  
+    margin: 0 auto;
+   width: auto;
    
 }
 .wrapper{
     margin: 0 auto;
     max-width: 1440px;
     box-sizing: border-box;
+    
+  
+    
 }
 
 header{
@@ -137,6 +140,67 @@ h2{
 
 .experience-align{
    padding: 0 40px;
+}
+
+.work-title{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.work-title h2{
+    color: rgb(255, 138, 89);
+    margin-bottom: 17px;
+    font-size: 34px;
+    font-weight: 600;
+   
+}
+
+.work-title p{
+    color: #767779;
+    font-size: 1.4em;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.work-description{
+    margin-top: 80px;
+   
+    
+}
+
+
+.work-description h3{
+    margin-top:-52px;
+    margin-bottom: 45px;
+    color: #738182;
+}
+
+.visit{
+    margin-top: 70px;
+}
+
+.work-description p{
+    
+    color: #c416c4;
+    font-family: "Maven pro", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 1.8em;
+}
+
+.work-image2 img{
+ 
+    height: 100%;
+    width: 90%;
+
+}
+
+
+.work-image2{
+    max-width:90%;
+   
+    
 }
 
 
