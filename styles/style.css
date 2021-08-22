@@ -16,7 +16,7 @@ body{
 header{
 
 width: 100%;  
-background-color: brown;  
+background-color:#1c2841;  
 height: 150px;
 }
 
@@ -38,6 +38,10 @@ height: 150px;
    text-align: center;
   margin-top: 60px;
   padding-bottom: 1em;
+}
+.about span{
+    font-family: "Maven pro", sans-serif;
+    color: #646464;
 }
 
 h2{
@@ -95,7 +99,7 @@ h2{
 
 .experience{
     margin: 0 auto;
-    background-color: #4c6d86;
+    background-color: #1c2841;
     padding: 45px 25px;
     text-align: center;
 }
@@ -151,8 +155,8 @@ h2{
 .work-title h2{
     color: rgb(255, 138, 89);
     margin-bottom: 17px;
-    font-size: 34px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 700;
    
 }
 
@@ -193,8 +197,10 @@ h2{
  
     height: 100%;
     width: 90%;
+   
 
 }
+
 
 
 .work-image2{
@@ -203,7 +209,7 @@ h2{
 }
 
 #contact{
-    background-color: rgba(255, 103, 68, 0.91);
+    background-color: #1c2841;
     padding: 6em 4em 5.6em;
 }
 
@@ -264,6 +270,12 @@ footer #copyright{
     color: #7d7d7d;
 }
 
+
+
+
+
+
+
 @media (max-width:600px) { 
     .work-section{
      
@@ -273,6 +285,21 @@ footer #copyright{
        
     }
 
+    .about span{
+        margin-bottom: 12px;
+    }
+
+
+    .icons{
+        margin-bottom: 10px;
+        
+        
+       
+    }
+    .button a{
+        margin-top: 15px;
+        font-size: 13px;
+    }
    
 
     .work-image2{
@@ -289,8 +316,20 @@ footer #copyright{
         font-size: 27px;
     }
 
-    .work-detail h2{
+    .work-detail h3{
         font-size: 27px;
+        margin-bottom: 13px;
+        margin-top: -24px;
+    }
+
+    .work-detail p{
+        margin-bottom: 19px;
+    }
+
+    .work-detail a{
+        margin-top: 12px;
+        font-size: 14px;
+       
     }
 
     .work-title h2{
@@ -310,6 +349,10 @@ footer #copyright{
 
     .work-description p{
         font-size: 16px;
+    }
+
+    .start a{
+        font-size: 14px;
     }
     .footer-detail h2{
         font-size: 24px;
