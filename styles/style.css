@@ -36,7 +36,7 @@ height: 150px;
 
 .about{
    text-align: center;
-  margin-top: 60px;
+  margin-top: 112px;
   padding-bottom: 1em;
 }
 .about span{
@@ -277,6 +277,7 @@ footer #copyright{
 
 
 @media (max-width:600px) { 
+
     .work-section{
      
         text-align: center;
