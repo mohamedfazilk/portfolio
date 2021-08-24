@@ -269,7 +269,37 @@ footer #copyright{
     margin-top: 30px;
     color: #7d7d7d;
 }
+.navbar{
 
+    display: inline;
+    color: #fff;
+    opacity: 1;
+  }
+  button[aria-expanded="true"] > span.navbar-toggler-icon {
+    display: none;
+  }
+
+  button[aria-expanded="false"] > span.close {
+    display: none;
+  }
+
+  .nav-link{
+   
+    padding: .25rem 1.5rem;
+    font-weight: 600;
+    color: rgba(0,0,0,.65);
+  }
+
+.main-part{
+    max-width: 500px;
+    width: auto;
+    height: 50%;
+}
+
+.carouse-div{
+    margin-top: 80px;
+    
+}
 
 
 
