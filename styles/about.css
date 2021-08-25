@@ -1,0 +1,29 @@
+
+.main-part{
+    max-width: 500px;
+    width: auto;
+    height: 50%;
+}
+
+.carouse-div{
+    margin-top: 80px;
+    
+}
+
+
+.carousel-inner{
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    width: 100%;
+}
+
+.place{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.photo-title{
+    margin-top: 50px;
+    text-align: center;
+}
