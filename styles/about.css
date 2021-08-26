@@ -1,3 +1,10 @@
+body{
+    background-color: #f8f9fa!important;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
 
 .main-part{
     max-width: 500px;
@@ -24,6 +31,26 @@
 }
 
 .photo-title{
-    margin-top: 50px;
-    text-align: center;
+    margin-top: 10em;
+  
+    color: #646464;
+}
+
+.card{
+    margin: 1rem;
+}
+
+
+@media(min-width:768px){
+    .photo-title h3{
+        font-size:45px;
+    }
+}
+
+
+@media(min-width:1024px){
+    
+.card{
+    margin: 3rem;
+}
 }

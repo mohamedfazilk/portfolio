@@ -4,6 +4,10 @@ body{
    width: auto;
    
 }
+html {
+    scroll-behavior: smooth;
+  }
+
 .wrapper{
     margin: 0 auto;
     max-width: 1440px;
