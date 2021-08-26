@@ -40,10 +40,36 @@ html {
     margin: 1rem;
 }
 
+.mythoughts{
+    margin-top: 108px;
+    color: #646464;
+}
+
+.img-native{
+    min-height: 1px;
+    height: 100%;
+    max-width: 355px;
+    width: 100%;
+}
+
+footer{
+    margin-top: 108px;
+}
+
+
+
+
+
+
 
 @media(min-width:768px){
     .photo-title h3{
         font-size:45px;
+    }
+
+    .mythoughts h3{
+        font-size:45px;
+
     }
 }
 
@@ -53,4 +79,16 @@ html {
 .card{
     margin: 3rem;
 }
+.aes{
+    min-height: 267px;
+    height: auto;
+}
+
+}
+
+@media(max-width:768px){
+    .aes{
+        min-height: 173px;
+        height: auto;
+    }
 }
