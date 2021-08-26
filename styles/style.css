@@ -1,5 +1,5 @@
 body{
-  
+    scroll-behavior: [ auto  smooth ];
     margin: 0 auto;
    width: auto;
    
@@ -271,6 +271,7 @@ footer .footer-detail{
    
 }
 
+
 footer #copyright{
     margin-top: 30px;
     color: #7d7d7d;
@@ -280,6 +281,7 @@ footer #copyright{
     display: inline;
     color: #fff;
     opacity: 1;
+    border: none;
   }
 
   .top-head{
